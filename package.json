@@ -1,0 +1,36 @@
+{
+  "name": "diskominfo-boilerplate-nodejs",
+  "version": "1.0.0",
+  "description": "Standar pengembangan nodejs Dinas Komunikasi dan Informatika Kabupaten Tulang Bawang",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dinas Komunikasi dan Informatika",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "@vladmandic/face-api": "^1.7.15",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "canvas": "^3.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.3.1",
+    "prisma": "^6.3.1"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
